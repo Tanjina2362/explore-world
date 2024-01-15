@@ -7,6 +7,7 @@
 .text-primary{
    color: #FF5400;
 }
+/*nav related styles*/
   nav{
    display: flex;
    justify-content: space-between;
@@ -18,7 +19,7 @@
    color: #131318;
 font-size: 36px;
 font-weight: 800;
-padding: 4px;
+
 .nav img{
    width: 48px;
 height: 56.008px;
@@ -39,4 +40,8 @@ align-items: center;
   nav a{
    text-decoration: none;
    color: #424247;
+  }
+  /*header related styles*/
+  .banner img{
+   padding: 40px 130px;
   }
