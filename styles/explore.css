@@ -4,3 +4,39 @@
   *{
    font-family: 'Mulish', sans-serif;
   }
+.text-primary{
+   color: #FF5400;
+}
+  nav{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 60px 130px;
+  }
+
+  .nav-title{
+   color: #131318;
+font-size: 36px;
+font-weight: 800;
+padding: 4px;
+.nav img{
+   width: 48px;
+height: 56.008px;
+align-items: center;
+
+
+}
+
+  }
+  nav > ul{
+   display: flex;
+  }
+  nav li{
+   list-style: none;
+   margin-right: 50px;
+
+  }
+  nav a{
+   text-decoration: none;
+   color: #424247;
+  }
