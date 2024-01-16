@@ -77,3 +77,18 @@ font-size: 16px;
 font-weight: 400;
 border: 8px;
   }
+
+
+
+
+
+
+  @media screen and (max-width:600px){
+.banner img{
+   padding: 0;
+}
+.banner-input{
+   flex-direction: column;
+}
+   }
+  
