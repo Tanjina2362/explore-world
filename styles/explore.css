@@ -7,6 +7,16 @@
 .text-primary{
    color: #FF5400;
 }
+.btn-primary{
+   border-radius: 10px;
+background: #FF5400;
+border: 0;
+color: #fff;
+font-size: 1rem;
+font-weight: 700;
+padding: 8px;
+
+}
 /*nav related styles*/
   nav{
    display: flex;
@@ -44,4 +54,26 @@ align-items: center;
   /*header related styles*/
   .banner img{
    padding: 40px 130px;
+  }
+
+.banner-title{
+   color: #fff;
+font-size: 64px;
+font-weight: 800;
+text-align: center;
+margin-top: -470px;
+}
+.banner-description{
+   color: #fff;
+   text-align: center;
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 26px; /* 162.5% */
+}
+  .banner-input{
+   color: rgba(19, 19, 24, 0.50);
+text-align: center;
+font-size: 16px;
+font-weight: 400;
+border: 8px;
   }
