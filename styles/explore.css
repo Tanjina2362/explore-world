@@ -1,8 +1,9 @@
 /*font family details*/
   @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;800&display=swap');
 
-  *{
+  body{
    font-family: 'Mulish', sans-serif;
+   border: 1px solid skyblue;
   }
 .text-primary{
    color: #FF5400;
@@ -52,8 +53,11 @@ align-items: center;
    color: #424247;
   }
   /*header related styles*/
+  
+  
   .banner img{
-   padding: 40px 130px;
+   padding: 146px 135px;
+   
   }
 
 .banner-title{
@@ -61,7 +65,7 @@ align-items: center;
 font-size: 64px;
 font-weight: 800;
 text-align: center;
-margin-top: -470px;
+margin-top: -500px;
 }
 .banner-description{
    color: #fff;
@@ -76,19 +80,51 @@ text-align: center;
 font-size: 16px;
 font-weight: 400;
 border: 8px;
-  }
-
-
-
-
-
-
-  @media screen and (max-width:600px){
-.banner img{
-   padding: 0;
 }
-.banner-input{
-   flex-direction: column;
+
+.popular-tour{
+   display: flex;
+   padding:250px 135px;
+   gap:100px;
 }
+.popular-tour-content .section-title{
+   color: #131318;
+font-size: 40px;
+font-weight: 800;
+line-height: normal;
+}
+.popular-tour-content p{
+   color: rgba(19, 19, 24, 0.70);
+font-size: 16px;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+}
+.popular-tour-content .section-lists{
+   color: rgba(19, 19, 24, 0.70);
+font-size: 16px;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+}
+
+.popular-tour-img img{
+   margin-right: 90%;
+}
+
+
+
+  @media screen and (max-width:576px){
+    
+   .banner-input{
+      flex-direction: column;
    }
+   .popular-tour-content{
+      text-align:center;
+   }
+   .popular-tour .popular-tour-img{
+      flex-direction:column;
+   }
+   
+}
+
+
   
